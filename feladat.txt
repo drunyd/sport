@@ -1,0 +1,16 @@
+Egy sportklub nyilvántartja a tagjai edzési adatait egy JSON fájlban. Minden tagról az alábbi adatokat tárolják:
+
+    name: a tag neve (string)
+    age: a tag életkora (int)
+    weight: a tag testsúlya kilogrammban (float)
+    workouts: egy lista, amely tartalmazza az edzések adatait. Minden edzés egy szótár, amely tartalmazza:
+        date: az edzés dátuma (string, formátum: "YYYY-MM-DD")
+        duration: az edzés időtartama percben (int)
+        type: az edzés típusa (string, pl. "futás", "biciklizés", "úszás")
+
+A feladatod az, hogy készíts egy Python programot, amely betölti a JSON fájlt, majd az alábbi feladatokat végrehajtja:
+
+    Tagok listázása: Listázza ki az összes tag nevét és életkorát.
+    Átlag testsúly: Számolja ki a tagok átlagos testsúlyát.
+    Edzések szűrése: Készíts egy funkciót, amely egy adott edzéstípus alapján visszaadja a tagok nevét és az adott típusú edzéseik számát.
+    Új edzés hozzáadása: Készíts egy funkciót, amely egy adott taghoz új edzést ad hozzá, és frissíti a JSON fájlt.

@@ -1,0 +1,55 @@
+{
+    "members": [
+        {
+            "name": "John Doe",
+            "age": 30,
+            "weight": 78.5,
+            "workouts": [
+                {
+                    "date": "2024-07-01",
+                    "duration": 30,
+                    "type": "futás"
+                },
+                {
+                    "date": "2024-07-03",
+                    "duration": 60,
+                    "type": "biciklizés"
+                }
+            ]
+        },
+        {
+            "name": "Jane Smith",
+            "age": 25,
+            "weight": 65.0,
+            "workouts": [
+                {
+                    "date": "2024-07-02",
+                    "duration": 45,
+                    "type": "úszás"
+                },
+                {
+                    "date": "2024-07-04",
+                    "duration": 30,
+                    "type": "futás"
+                }
+            ]
+        },
+        {
+            "name": "Emily Davis",
+            "age": 28,
+            "weight": 70.0,
+            "workouts": [
+                {
+                    "date": "2024-07-05",
+                    "duration": 20,
+                    "type": "biciklizés"
+                },
+                {
+                    "date": "2024-07-07",
+                    "duration": 50,
+                    "type": "futás"
+                }
+            ]
+        }
+    ]
+}
