@@ -23,3 +23,18 @@ def szures(Data,tipus):
     
 szurtadatok=szures(data,"futás")
 print(szurtadatok)
+
+def add(Datain,Nev,Newworkout):
+    for ember in Datain["members"]:
+        if ember["name"]==Nev:
+            ember["workouts"].append(Newworkout)
+
+w={
+                    "date": "2024-07-04",
+                    "duration": 30,
+                    "type": "futás"
+                }
+add(data,"John Doe",w)
+
+szurtadatok=szures(data,"futás")
+print(szurtadatok)
